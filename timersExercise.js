@@ -43,7 +43,9 @@ function randomGame() {
     let times = 0;
     let timer = setInterval(function () {
         num = Math.random();
+        //console.log(num);
         times++;
+        
         if (num > .75) {
             clearInterval(timer);
             console.log("It took " + times + " tries.");
@@ -52,5 +54,5 @@ function randomGame() {
 }
 
 countDown(5);
-setTimeout(randomGame, 6000);
+randomGame();
 
