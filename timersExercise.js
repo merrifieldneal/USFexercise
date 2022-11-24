@@ -48,7 +48,7 @@ function randomGame() {
             clearInterval(timer);
             console.log("It took " + times + " tries.");
         }
-    }, 100)
+    }, 1000)
 }
 
 countDown(5);
