@@ -48,7 +48,7 @@ function randomGame() {
         
         if (num > .75) {
             clearInterval(timer);
-            console.log("It took " + times + " tries.");
+            console.log("It took " + times + " tries to get a number >.75.");
         }
     }, 1000)
 }
