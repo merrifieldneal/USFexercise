@@ -1,0 +1,316 @@
+* Complete the 'repeat' function below.
+ *
+ * The function is expected to return a STRING.
+ * The function accepts following parameters:
+ *  1. STRING str
+ *  2. INTEGER multipler
+ */
+
+function repeat(str, multipler) {
+let returnString = "";
+for (let i=0;i<multipler;i++){
+    returnString=returnString+str;
+}
+return returnString;
+}
+--------------------------
+/*
+ * Complete the 'removeFromString' function below.
+ *
+ * The function is expected to return a STRING.
+ * The function accepts following parameters:
+ *  1. STRING str
+ *  2. INTEGER index
+ *  3. INTEGER count
+ */
+
+function removeFromString(str, index, count) {
+let returnString = "";
+let end = index+count;
+for (let i=0;i<str.length;i++){
+    //console.log('for loop:'+str[i]);
+    if (i<index || i>=end){
+        returnString=returnString+str[i];
+    }
+}
+return returnString;
+}
+---------------------------------------------------
+/*
+ * Complete the 'reverse' function below.
+ *
+ * The function is expected to return an INTEGER_ARRAY.
+ * The function accepts INTEGER_ARRAY arr as parameter.
+ */
+
+function reverse(arr) {
+    let copyArr = [];
+    let index = 0;
+    //console.log(copyArr.length);
+    for (let i = arr.length - 1; i >= 0; i--) {
+        //console.log(arr[i]);
+        //console.log("for loop :" + i);
+        //console.log()
+        copyArr[index] = arr[i];
+        index++;
+    }
+    arr = copyArr;
+    return arr;
+}
+------------------------------------------------------------------
+/*
+ * Complete the 'min' function below.
+ *
+ * The function is expected to return an INTEGER.
+ * The function accepts INTEGER_ARRAY arr as parameter.
+ */
+
+function min(arr) {
+let lowest=arr[0];
+for (let i=0;i<arr.length;i++){
+    if (lowest>arr[i]){
+        lowest=arr[i];
+    }
+}
+return lowest;
+}
+-------------------------------------------
+/*
+ * Complete the 'slice' function below.
+ *
+ * The function is expected to return an INTEGER_ARRAY.
+ * The function accepts following parameters:
+ *  1. INTEGER_ARRAY arr
+ *  2. INTEGER index
+ *  3. INTEGER len
+ */
+
+function slice(arr, index, len) {
+let returnArr = [];
+
+if (len>arr.length){
+    len = arr.length;
+}
+// console.log("array: "+arr);
+// console.log("index: "+index);
+// console.log("len: "+len);
+for (let i=0;i<arr.length;i++){
+    //console.log('for loop:i='+i+" arri: "+arr[i]);
+    if (i>=index && i<len){
+        returnArr.push(arr[i]);
+    }
+}
+ return returnArr;
+}
+-----------------------------------------------------
+/*
+ * Complete the 'keys' function below.
+ *
+ * The function is expected to return a STRING_ARRAY.
+ * The function accepts STRING json as parameter.
+ */
+
+function keys(json) {
+    var obj = JSON.parse(json);
+    //console.log(obj);
+    let returnArr = [];
+    for (var key in obj){
+        if (obj.hasOwnProperty(key)){
+          returnArr.push(key);  
+        }
+        //console.log(key);
+    }
+    return returnArr;
+}
+-------------------------------------------------
+/*
+ * Complete the 'values' function below.
+ *
+ * The function is expected to return a STRING_ARRAY.
+ * The function accepts STRING json as parameter.
+ */
+
+function values(json) {
+    var obj = JSON.parse(json);
+    let tmp = Object.keys(obj);
+    //console.log(tmp);
+    let returnArr = [];
+    for (let keys of tmp){
+        //console.log(keys);
+        returnArr.push(obj[keys])
+    }
+    return returnArr;
+}
+--------------------------------------------------------
+/*
+ * Complete the 'swapKeyAndValue' function below. Do not alter any pre-existing code. 
+ *
+ * The function is expected to return a STRING.
+ * The function accepts following parameters:
+ *  1. STRING json
+ *  2. STRING swapKey
+ */
+
+function swapKeyAndValue(json, swapKey) {
+        var obj = JSON.parse(json);
+        const newObj = {};
+        let targetValue = obj[swapKey];
+        let objKeys = Object.keys(obj);
+        for (let keys of objKeys){
+            if (keys!=swapKey){
+                newObj[keys]=obj[keys];
+            }
+            else {
+                newObj[targetValue]= swapKey;
+            }
+        }
+        
+
+        return JSON.stringify(newObj);
+
+}
+-----------------------------------------------------
+/*
+ * Complete the 'multiples' function below.
+ *
+ * The function is expected to return an INTEGER_ARRAY.
+ * The function accepts following parameters:
+ *  1. INTEGER x
+ *  2. INTEGER n
+ */
+
+function multiples(x, n) {
+let returnArr = [];
+for(let i=1;i<=n;i++){
+    //console.log(x+"* "+i+"="+(x*i));
+    returnArr.push((x*i));
+}
+return returnArr;
+}
+----------------------------------------------------------------------
+/*
+ * Complete the 'pluck' function below.
+ *
+ * The function is expected to return a STRING_ARRAY.
+ * The function accepts following parameters:
+ *  1. STRING json
+ *  2. STRING value
+ */
+
+function pluck(json, value) {
+    var obj = JSON.parse(json);
+    let returnArr = [];
+    for(let i=0;i<obj.length;i++){
+        if (obj[i].hasOwnProperty(value)===true){
+            returnArr.push(obj[i][value]);
+        }
+        else {
+            returnArr.push(-1);
+        }
+    }
+    
+    
+    
+    return returnArr;
+}
+-------------------------------------
+/*
+ * Complete the 'twoHighest' function below.
+ *
+ * The function is expected to return an INTEGER_ARRAY.
+ * The function accepts INTEGER_ARRAY arr as parameter.
+ */
+
+function twoHighest(arr) {
+let returnArr = [-100,-100];
+// with more info i can make a more custom starting argument if it needs to be within a scope (if all negative numbers below -100 it will fail as is)
+console.log(arr);
+for (let i=0;i<arr.length;i++){
+    //console.log(i+":i arr element:"+arr[i]);
+    if (arr[i]>returnArr[1]){
+        if(returnArr[1]>returnArr[0]){
+            returnArr[0]=returnArr[1];
+        }
+        returnArr[1]=arr[i];
+        //console.log(returnArr);
+    }
+    else if (arr[i]<=returnArr[1] && arr[i]>=returnArr[0]){
+        returnArr[0]=arr[i];
+        //console.log(returnArr);
+    }
+}
+// console.log(returnArr[0]);
+// console.log(returnArr[1]);
+return returnArr;
+}
+--------------------------------------------
+/*
+ * Complete the 'minMaxKeyInObject' function below.
+ *
+ * The function is expected to return a STRING_ARRAY.
+ * The function accepts STRING json as parameter.
+ */
+
+function minMaxKeyInObject(json) {
+    var obj = JSON.parse(json);
+    let objectKeys=Object.keys(obj);
+    let returnArr = [objectKeys[0],objectKeys[((objectKeys.length)-1)]];
+    console.log(objectKeys);
+// for (let i=0;i<objectKeys.length;i++){
+//     if (objectKeys[i]<returnArr[0]){
+//         returnArr[0]=objectKeys[i];
+//         console.log("for "+i+":i key:"+objectKeys[i]+" returnarr:"+returnArr);
+//     } 
+//     else if (objectKeys[i]>returnArr[1]){
+//         returnArr[1]=objectKeys[i];
+//         console.log("for "+i+":i key:"+objectKeys[i]+" returnarr:"+returnArr);
+//     }
+// }
+    return returnArr;
+}
+-------------------------------------------------------
+/*
+ * Complete the 'stringFromObject' function below.
+ *
+ * The function is expected to return a STRING.
+ * The function accepts STRING json as parameter.
+ */
+
+function stringFromObject(json) {
+    var obj = JSON.parse(json);
+    let returnString="";
+    let objectKeys=Object.keys(obj);
+    let objectValues=Object.values(obj);
+    for (let i=0;i<objectKeys.length;i++){
+       let tmp; 
+        if (i==objectKeys.length-1){
+            tmp=objectKeys[i]+" = "+objectValues[i];
+        }
+        else{
+            tmp=objectKeys[i]+" = "+objectValues[i]+", ";  
+        }
+        returnString=returnString+tmp;
+    }
+    return returnString;
+}
+--------------------------------------------------------
+/*
+ * Complete the 'countNumbers' function below.
+ *
+ * The function is expected to return an INTEGER.
+ * The function accepts STRING_ARRAY arr as parameter.
+ */
+
+function countNumbers(arr) {
+let count = 0;
+//console.log(arr);
+for (let i=0;i<arr.length;i++){
+    //console.log(typeof(arr[i]));
+    let tmp=Number.parseInt(arr[i]);
+    if (Number.isInteger(tmp)===true){
+        count++;
+    }
+    //console.log(i+":i || arr i: "+arr[i]);
+}
+return count;
+}-------------------------------------------------------
