@@ -1,0 +1,26 @@
+mkdir first
+cd first
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+copy -r first second
+rm -rf second
+
+man = manual q to exit up/down
+long listing format? list all
+alt left/right
+ctrl e 
+ctrl a 
+ctrl w
+terminal is wrapper program which runs shell, shell is program which
+    processes commands and returns output
+absolute path is the direct path to file folder
+    Users/person/Documents/TestFolder/test.txt
+relative path is abbrievated path to file folder
+    TestFolder/
+modifers that change the command you enter ls -a all ls -l list 
+    rm -rf remove folders
+remove directories and contents and force (dont ask)
+
+
