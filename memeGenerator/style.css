@@ -1,0 +1,10 @@
+body { 
+    background-color: rgb(167, 163, 163);
+}
+#title {
+    font-family: fantasy;
+    text-shadow: 2px 2px red;
+}
+p{
+    font-family: sans-serif;
+}
