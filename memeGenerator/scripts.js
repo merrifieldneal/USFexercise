@@ -26,9 +26,12 @@ inputField.addEventListener("click", function (e) {
         newWordsBottom.innerText = bottomText.value;
         newWordsTop.innerText = topText.value;
         newButton.innerHTML = '&#10060;';
+        newButton.style.position = "absolute";
 
         // make style changes on top vs bottom
         newDivAll.style.position = "relative";
+        newDivAll.style.display = "flex";
+        newDivAll.style.justifyContent = "center";
         newWordsTop.style.position = "absolute";
         newWordsTop.style.top = "0px";
         newWordsTop.style.color = textColor.value;
@@ -60,5 +63,3 @@ clipBoard.addEventListener("click", function (e) {
         e.target.parentElement.remove();
     }
 })
-
-
