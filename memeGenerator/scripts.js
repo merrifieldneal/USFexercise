@@ -5,7 +5,6 @@ const inputField = document.body.querySelector("#inputfield");
 const clipBoard = document.body.querySelector("#clipboard");
 const textColor = document.body.querySelector("#textcolor");
 
-clipBoard.add
 
 inputField.addEventListener("click", function (e) {
     e.preventDefault();
