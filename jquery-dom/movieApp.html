@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+    <title>Movie App</title>
+</head>
+<body>
+  <h1>MY MOVIE RATING APP!</h1>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $(function(){
+            // make ordered list (may make it hard to search for later)
+            $('<ol/>').appendTo('body');
+            // make form
+            $('<form/>').appendTo('body');
+            // make two inputs movie and rating
+            // and button for submit
+            $('<input/>').attr("id",'movie').appendTo('form');
+            $('<input/>').attr("id",'rating').appendTo('form');
+            $('<button/>').text("SUBMIT!").appendTo("form");
+            $('button').on("click",function(e){
+                e.preventDefault();
+                //check movie title length
+                if (($('#movie').val()).length<2){
+                    alert("Movie Title length must be over 2 chars");
+                    return;
+                }
+                const movie = $('#movie').val();
+                // check if ratings are good numbers
+                if (isNaN(($('#rating').val()))){
+                    alert("rating must be number between 0 and 10");
+                    return;
+                }
+                else if (($('#rating').val())<0 || ($('#rating').val())>10){
+                    alert("rating must be number between 0 and 10");
+                    return;
+                }
+                const rating = $('#rating').val();
+                // put the information together
+                const msg = "Movie: "+movie+" :   Rating: "+rating;
+                const newli = ($('<li/>').text(msg))
+                $('<button/>').text('X').on("click",function(e){
+                    (e.target.parentNode).remove();
+                }).appendTo(newli);
+                // append the new movie/rating
+                $('ol').append(newli);
+                // clear the input fields
+                $('#movie').val("");
+                $('#rating').val("");
+            })
+            
+        })
+    </script>
+</body>
+</html>
