@@ -18,9 +18,9 @@ Your browser makes a request to that IP address, including headers (info about b
 The server sends a response (typically, HTML, with a status code (200 if it was sucessful)
 The browser makes a DOM from that HTML, and finds any other resources needed (images, CSS, JavaScript, etc)
 The browser makes separate HTTP requests for those resources and receives response from the server for each
+Part 2
 10. curl -H "Accept: application/json" "https://icanhazdadjoke.com/search?term=pirate"
 11. dig icanhazdadjoke.com +short 
 172.67.198.173  104.21.66.15
 12. localhost 8000
-
-
+part 3/4 were independent practice
