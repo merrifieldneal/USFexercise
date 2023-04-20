@@ -14,7 +14,7 @@ function addGif(res) {
     // console.log(res.data.length);
     //
     if (numResults) {
-        // random selection of 50 gifs?
+        // random selection of 50 gifs
         let randomIdx = Math.floor(Math.random() * numResults);
         // show the random number
         // console.log(randomIdx);
@@ -35,7 +35,7 @@ function addGif(res) {
 /* handle form submission: clear search box & make ajax call */
 
 //submit button handling, form is entered with submit button
-$("form").on("submit", async function (evt) {
+$("#searchbtn").on("click", async function (evt) {
     evt.preventDefault();
     // input 
     let searchTerm = $searchInput.val();
