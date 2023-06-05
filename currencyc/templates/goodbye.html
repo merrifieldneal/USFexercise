@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}MAIN{% endblock %}
+
+{% block content %}
+
+    <h1>Conversion In Place</h1>
+    <p>Result is: {{converted_amount}} in {{symbol}} </p>
+    <p>Would you like to make another conversion?</p>
+    <a href="http://localhost:5000/convert">Another Conversion CLICK HERE!</a>
+{% endblock %}

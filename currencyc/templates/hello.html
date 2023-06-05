@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}MAIN{% endblock %}
+
+{% block content %}
+
+    <h1>Currency Converter using Python - Forex</h1>
+
+    <form method = "POST">
+    <input type = "text" name = "fromc" id = "fromc" placeholder="FROM (USD)">
+    <input type = "text" name = "toc" id = "toc" placeholder="TO (USD)">
+    <input type = "number" name = "amount" id = "amount" placeholder="$(AMOUNT)">
+    <button>Submit!</button>
+    </form>
+    
+
+{% endblock %}
