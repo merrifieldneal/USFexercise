@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}MAIN{% endblock %}
+
+{% block content %}
+
+
+    <form action="/convert">
+        <div class="form-group">
+            <input type = "text" name = "fromc" id = "fromc" placeholder="FROM (USD)" value="{{ fromc }}">
+        </div>
+        <div class="form-group">
+            <input type = "text" name = "toc" id = "toc" placeholder="TO (USD)" value="{{ toco  }}">
+        </div>
+        <div class="form-group">
+            <input type = "number" name = "amount" id = "amount" placeholder="$(AMOUNT)" value="{{ amount }}">
+        </div>
+        <button type="submit">Submit!</button>
+    </form>
+    
+
+{% endblock %}
