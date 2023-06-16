@@ -2,7 +2,7 @@
 
 from flask_sqlalchemy import SQLAlchemy
 
-# GENERIC_IMAGE = "https://mylostpetalert.com/wp-content/themes/mlpa-child/images/nophoto.gif"
+GENERIC_IMAGE = "https://mylostpetalert.com/wp-content/themes/mlpa-child/images/nophoto.gif"
 
 db = SQLAlchemy()
 
