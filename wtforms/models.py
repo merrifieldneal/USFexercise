@@ -31,6 +31,12 @@ class Pet(db.Model):
     available = db.Column(db.Boolean, 
                           nullable=False, 
                           default=True)
+
+    # img handling 
+     def image_url(self):
+        """Return image for pet -- bespoke or generic."""
+
+        return self.photo_url or GENERIC_IMAGE
     
 
 
