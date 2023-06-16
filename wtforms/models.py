@@ -2,6 +2,7 @@
 
 from flask_sqlalchemy import SQLAlchemy
 
+# use a default image incase url image doesnt work?
 GENERIC_IMAGE = "https://mylostpetalert.com/wp-content/themes/mlpa-child/images/nophoto.gif"
 
 db = SQLAlchemy()
