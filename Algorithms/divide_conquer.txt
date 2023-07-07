@@ -1,0 +1,155 @@
+def countZeroes(arr):
+    left = 0
+    right = len(arr) - 1
+
+    while left <= right:
+        mid = (left + right) // 2
+
+        # Check if mid is the first occurrence of 0
+        if (arr[mid] == 0 and (mid == 0 or arr[mid - 1] == 1)):
+            return len(arr) - mid
+
+        # If mid element is 1, search on the right side
+        if arr[mid] == 1:
+            left = mid + 1
+        # If mid element is 0, search on the left side
+        else:
+            right = mid - 1
+
+    # No occurrence of 0 found
+    return 0
+	
+#######################################
+
+def sortedFrequency(arr, num):
+    first = findFirstOccurrence(arr, num)
+    
+    # If the number is not found, return 0
+    if first == -1:
+        return 0
+    
+    last = findLastOccurrence(arr, num)
+    
+    return last - first + 1
+
+
+def findFirstOccurrence(arr, num):
+    left = 0
+    right = len(arr) - 1
+    first = -1
+
+    while left <= right:
+        mid = (left + right) // 2
+
+        if arr[mid] == num:
+            first = mid
+            right = mid - 1
+        elif arr[mid] < num:
+            left = mid + 1
+        else:
+            right = mid - 1
+
+    return first
+
+
+def findLastOccurrence(arr, num):
+    left = 0
+    right = len(arr) - 1
+    last = -1
+
+    while left <= right:
+        mid = (left + right) // 2
+
+        if arr[mid] == num:
+            last = mid
+            left = mid + 1
+        elif arr[mid] < num:
+            left = mid + 1
+        else:
+            right = mid - 1
+
+    return last
+	
+###################################
+
+def findRotatedIndex(arr, num):
+    left = 0
+    right = len(arr) - 1
+
+    while left <= right:
+        mid = (left + right) // 2
+
+        # If the middle element is the target number, return its index
+        if arr[mid] == num:
+            return mid
+
+        # Check if the left half is sorted
+        if arr[left] <= arr[mid]:
+            # Check if the target number is within the sorted left half
+            if arr[left] <= num < arr[mid]:
+                right = mid - 1
+            else:
+                left = mid + 1
+        # If the left half is not sorted, the right half must be sorted
+        else:
+            # Check if the target number is within the sorted right half
+            if arr[mid] < num <= arr[right]:
+                left = mid + 1
+            else:
+                right = mid - 1
+
+    # The number was not found in the array
+    return -1
+	
+#########################################
+
+def findRotationCount(arr):
+    left = 0
+    right = len(arr) - 1
+
+    while left <= right:
+        # If the array is already sorted, the rotation count is 0
+        if arr[left] <= arr[right]:
+            return left
+
+        mid = (left + right) // 2
+        next_mid = (mid + 1) % len(arr)
+        prev_mid = (mid - 1 + len(arr)) % len(arr)
+
+        # Check if the middle element is smaller than its neighbors
+        if arr[mid] <= arr[next_mid] and arr[mid] <= arr[prev_mid]:
+            return mid
+
+        # If the left half is sorted, search in the right half
+        if arr[left] <= arr[mid]:
+            left = mid + 1
+        # If the right half is sorted, search in the left half
+        else:
+            right = mid - 1
+
+    # The array is not rotated
+    return 0
+	
+##########################
+
+def findFloor(arr, x):
+    left = 0
+    right = len(arr) - 1
+    floor = -1
+
+    while left <= right:
+        mid = (left + right) // 2
+
+        # If the middle element is equal to x, it is the floor
+        if arr[mid] == x:
+            return arr[mid]
+
+        # If the middle element is smaller than x, it can be a potential floor
+        if arr[mid] < x:
+            floor = arr[mid]
+            left = mid + 1
+        # If the middle element is greater than x, search in the left half
+        else:
+            right = mid - 1
+
+    return floor
