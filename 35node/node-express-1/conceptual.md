@@ -12,7 +12,7 @@ A Promise represents a value that may not be available yet but will be resolved 
 
 ---
 
-## 3.What are the differences between an async function and a regular function? Regular function (takes input yes,no - returns parameter yes/no) - async function (impicit promise return, await expression)
+## 3.What are the differences between an async function and a regular function? Regular function (takes input yes,no - returns parameter yes/no) - async function (implicit promise return, await expression)
 
 4.What is the difference between Node.js and Express.js?
 Node.js is the underlying JavaScript runtime that allows you to run JavaScript code on the server-side, while Express.js is a framework that runs on top of Node.js and simplifies the process of building web applications and APIs.
