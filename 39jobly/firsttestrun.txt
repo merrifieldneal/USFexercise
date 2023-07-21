@@ -1,0 +1,2657 @@
+ FAIL  routes/users.test.js (105.662 s)
+  ● Console
+
+    console.log
+      Jobly Config:
+
+      at Object.log (config.js:24:9)
+
+    console.log
+      SECRET_KEY: secret-dev
+
+      at Object.log (config.js:25:9)
+
+    console.log
+      PORT: 3001
+
+      at Object.log (config.js:26:9)
+
+    console.log
+      BCRYPT_WORK_FACTOR 1
+
+      at Object.log (config.js:27:9)
+
+    console.log
+      Database: jobly_test
+
+      at Object.log (config.js:28:9)
+
+    console.log
+      ---
+
+      at Object.log (config.js:29:9)
+
+  ● POST /users › works for users: create non-admin
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● POST /users › works for users: create non-admin
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● POST /users › works for users: create admin
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● POST /users › works for users: create admin
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● POST /users › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● POST /users › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● POST /users › bad request if missing data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● POST /users › bad request if missing data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● POST /users › bad request if invalid data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● POST /users › bad request if invalid data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● GET /users › works for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● GET /users › works for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● GET /users › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● GET /users › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● GET /users › fails: test next() handler
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● GET /users › fails: test next() handler
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● GET /users/:username › works for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● GET /users/:username › works for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● GET /users/:username › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● GET /users/:username › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● GET /users/:username › not found if user not found
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● GET /users/:username › not found if user not found
+
+    Connection terminated unexpectedly
+
+      at Connection.<anonymous> (node_modules/pg/lib/client.js:123:73)
+      at Socket.<anonymous> (node_modules/pg/lib/connection.js:102:12)
+
+  ● PATCH /users/:username › works for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● PATCH /users/:username › works for users
+
+    Connection terminated unexpectedly
+
+      at Connection.<anonymous> (node_modules/pg/lib/client.js:123:73)
+      at Socket.<anonymous> (node_modules/pg/lib/connection.js:102:12)
+
+  ● PATCH /users/:username › works for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● PATCH /users/:username › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● PATCH /users/:username › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● PATCH /users/:username › not found if no such user
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● PATCH /users/:username › not found if no such user
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● PATCH /users/:username › bad request if invalid data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● PATCH /users/:username › bad request if invalid data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● PATCH /users/:username › works: set new password
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● PATCH /users/:username › works: set new password
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● DELETE /users/:username › works for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● DELETE /users/:username › works for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● DELETE /users/:username › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● DELETE /users/:username › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+  ● DELETE /users/:username › not found if user missing
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/users.test.js:17:1)
+
+  ● DELETE /users/:username › not found if user missing
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** POST /users */
+
+      at Object.afterEach (routes/users.test.js:19:1)
+
+
+  ● Test suite failed to run
+
+    TypeError: The "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received null
+
+      at createHMAC (node_modules/pg/lib/sasl.js:133:17)
+      at Hi (node_modules/pg/lib/sasl.js:137:13)
+      at Object.continueSession (node_modules/pg/lib/sasl.js:32:24)
+      at Client._handleAuthSASLContinue (node_modules/pg/lib/client.js:248:10)
+      at node_modules/pg/lib/connection.js:109:12
+      at Parser.parse (node_modules/pg-protocol/src/parser.ts:102:9)
+      at Socket.<anonymous> (node_modules/pg-protocol/src/index.ts:7:48)
+
+  ● Test suite failed to run
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+    > 20 | afterAll(commonAfterAll);
+         | ^
+      21 |
+      22 | /************************************** POST /users */
+      23 |
+
+      at Object.afterAll (routes/users.test.js:20:1)
+
+ FAIL  routes/companies.test.js (90.304 s)
+  ● Console
+
+    console.log
+      Jobly Config:
+
+      at Object.log (config.js:24:9)
+
+    console.log
+      SECRET_KEY: secret-dev
+
+      at Object.log (config.js:25:9)
+
+    console.log
+      PORT: 3001
+
+      at Object.log (config.js:26:9)
+
+    console.log
+      BCRYPT_WORK_FACTOR 1
+
+      at Object.log (config.js:27:9)
+
+    console.log
+      Database: jobly_test
+
+      at Object.log (config.js:28:9)
+
+    console.log
+      ---
+
+      at Object.log (config.js:29:9)
+
+  ● POST /companies › ok for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● POST /companies › ok for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● POST /companies › bad request with missing data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● POST /companies › bad request with missing data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● POST /companies › bad request with invalid data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● POST /companies › bad request with invalid data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● GET /companies › ok for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● GET /companies › ok for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● GET /companies › fails: test next() handler
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● GET /companies › fails: test next() handler
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● GET /companies/:handle › works for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● GET /companies/:handle › works for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● GET /companies/:handle › works for anon: company w/o jobs
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● GET /companies/:handle › works for anon: company w/o jobs
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● GET /companies/:handle › not found for no such company
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● GET /companies/:handle › not found for no such company
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● PATCH /companies/:handle › works for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● PATCH /companies/:handle › works for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● PATCH /companies/:handle › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● PATCH /companies/:handle › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● PATCH /companies/:handle › not found on no such company
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● PATCH /companies/:handle › not found on no such company
+
+    Connection terminated unexpectedly
+
+      at Connection.<anonymous> (node_modules/pg/lib/client.js:123:73)
+      at Socket.<anonymous> (node_modules/pg/lib/connection.js:102:12)
+
+  ● PATCH /companies/:handle › bad request on handle change attempt
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● PATCH /companies/:handle › bad request on handle change attempt
+
+    Connection terminated unexpectedly
+
+      at Connection.<anonymous> (node_modules/pg/lib/client.js:123:73)
+      at Socket.<anonymous> (node_modules/pg/lib/connection.js:102:12)
+
+  ● PATCH /companies/:handle › bad request on handle change attempt
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● PATCH /companies/:handle › bad request on invalid data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● PATCH /companies/:handle › bad request on invalid data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● DELETE /companies/:handle › works for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● DELETE /companies/:handle › works for users
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● DELETE /companies/:handle › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● DELETE /companies/:handle › unauth for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+  ● DELETE /companies/:handle › not found for no such company
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | } = require("./_testCommon");
+      15 |
+    > 16 | beforeAll(commonBeforeAll);
+         | ^
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+      19 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/companies.test.js:16:1)
+
+  ● DELETE /companies/:handle › not found for no such company
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      16 | beforeAll(commonBeforeAll);
+      17 | beforeEach(commonBeforeEach);
+    > 18 | afterEach(commonAfterEach);
+         | ^
+      19 | afterAll(commonAfterAll);
+      20 |
+      21 | /************************************** POST /companies */
+
+      at Object.afterEach (routes/companies.test.js:18:1)
+
+
+  ● Test suite failed to run
+
+    TypeError: The "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received null
+
+      at createHMAC (node_modules/pg/lib/sasl.js:133:17)
+      at Hi (node_modules/pg/lib/sasl.js:137:13)
+      at Object.continueSession (node_modules/pg/lib/sasl.js:32:24)
+      at Client._handleAuthSASLContinue (node_modules/pg/lib/client.js:248:10)
+      at node_modules/pg/lib/connection.js:109:12
+      at Parser.parse (node_modules/pg-protocol/src/parser.ts:102:9)
+      at Socket.<anonymous> (node_modules/pg-protocol/src/index.ts:7:48)
+
+  ● Test suite failed to run
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeEach(commonBeforeEach);
+      18 | afterEach(commonAfterEach);
+    > 19 | afterAll(commonAfterAll);
+         | ^
+      20 |
+      21 | /************************************** POST /companies */
+      22 |
+
+      at Object.afterAll (routes/companies.test.js:19:1)
+
+ FAIL  models/user.test.js (85.234 s)
+  ● Console
+
+    console.log
+      Jobly Config:
+
+      at Object.log (config.js:24:9)
+
+    console.log
+      SECRET_KEY: secret-dev
+
+      at Object.log (config.js:25:9)
+
+    console.log
+      PORT: 3001
+
+      at Object.log (config.js:26:9)
+
+    console.log
+      BCRYPT_WORK_FACTOR 1
+
+      at Object.log (config.js:27:9)
+
+    console.log
+      Database: jobly_test
+
+      at Object.log (config.js:28:9)
+
+    console.log
+      ---
+
+      at Object.log (config.js:29:9)
+
+  ● authenticate › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● authenticate › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+  ● authenticate › unauth if no such user
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● authenticate › unauth if no such user
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+  ● authenticate › unauth if wrong password
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● authenticate › unauth if wrong password
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+  ● register › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● register › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+  ● register › works: adds admin
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● register › works: adds admin
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+  ● register › bad request with dup data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● register › bad request with dup data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+  ● findAll › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● findAll › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+  ● get › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● get › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+  ● get › not found if no such user
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● get › not found if no such user
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+  ● update › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● update › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+  ● update › works: set password
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● update › works: set password
+
+    Connection terminated unexpectedly
+
+      at Connection.<anonymous> (node_modules/pg/lib/client.js:123:73)
+      at Socket.<anonymous> (node_modules/pg/lib/connection.js:102:12)
+
+  ● update › not found if no such user
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● update › not found if no such user
+
+    Connection terminated unexpectedly
+
+      at Connection.<anonymous> (node_modules/pg/lib/client.js:123:73)
+      at Socket.<anonymous> (node_modules/pg/lib/connection.js:102:12)
+
+  ● update › not found if no such user
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+  ● update › bad request if no data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● update › bad request if no data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+  ● remove › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● remove › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+  ● remove › not found if no such user
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      15 | } = require("./_testCommon");
+      16 |
+    > 17 | beforeAll(commonBeforeAll);
+         | ^
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+      20 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/user.test.js:17:1)
+
+  ● remove › not found if no such user
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      17 | beforeAll(commonBeforeAll);
+      18 | beforeEach(commonBeforeEach);
+    > 19 | afterEach(commonAfterEach);
+         | ^
+      20 | afterAll(commonAfterAll);
+      21 |
+      22 | /************************************** authenticate */
+
+      at Object.afterEach (models/user.test.js:19:1)
+
+
+  ● Test suite failed to run
+
+    TypeError: The "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received null
+
+      at createHMAC (node_modules/pg/lib/sasl.js:133:17)
+      at Hi (node_modules/pg/lib/sasl.js:137:13)
+      at Object.continueSession (node_modules/pg/lib/sasl.js:32:24)
+      at Client._handleAuthSASLContinue (node_modules/pg/lib/client.js:248:10)
+      at node_modules/pg/lib/connection.js:109:12
+      at Parser.parse (node_modules/pg-protocol/src/parser.ts:102:9)
+      at Socket.<anonymous> (node_modules/pg-protocol/src/index.ts:7:48)
+
+  ● Test suite failed to run
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      18 | beforeEach(commonBeforeEach);
+      19 | afterEach(commonAfterEach);
+    > 20 | afterAll(commonAfterAll);
+         | ^
+      21 |
+      22 | /************************************** authenticate */
+      23 |
+
+      at Object.afterAll (models/user.test.js:20:1)
+
+ FAIL  models/company.test.js (60.201 s)
+  ● Console
+
+    console.log
+      Jobly Config:
+
+      at Object.log (config.js:24:9)
+
+    console.log
+      SECRET_KEY: secret-dev
+
+      at Object.log (config.js:25:9)
+
+    console.log
+      PORT: 3001
+
+      at Object.log (config.js:26:9)
+
+    console.log
+      BCRYPT_WORK_FACTOR 1
+
+      at Object.log (config.js:27:9)
+
+    console.log
+      Database: jobly_test
+
+      at Object.log (config.js:28:9)
+
+    console.log
+      ---
+
+      at Object.log (config.js:29:9)
+
+  ● create › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      11 | } = require("./_testCommon");
+      12 |
+    > 13 | beforeAll(commonBeforeAll);
+         | ^
+      14 | beforeEach(commonBeforeEach);
+      15 | afterEach(commonAfterEach);
+      16 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/company.test.js:13:1)
+
+  ● create › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      13 | beforeAll(commonBeforeAll);
+      14 | beforeEach(commonBeforeEach);
+    > 15 | afterEach(commonAfterEach);
+         | ^
+      16 | afterAll(commonAfterAll);
+      17 |
+      18 | /************************************** create */
+
+      at Object.afterEach (models/company.test.js:15:1)
+
+  ● create › bad request with dupe
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      11 | } = require("./_testCommon");
+      12 |
+    > 13 | beforeAll(commonBeforeAll);
+         | ^
+      14 | beforeEach(commonBeforeEach);
+      15 | afterEach(commonAfterEach);
+      16 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/company.test.js:13:1)
+
+  ● create › bad request with dupe
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      13 | beforeAll(commonBeforeAll);
+      14 | beforeEach(commonBeforeEach);
+    > 15 | afterEach(commonAfterEach);
+         | ^
+      16 | afterAll(commonAfterAll);
+      17 |
+      18 | /************************************** create */
+
+      at Object.afterEach (models/company.test.js:15:1)
+
+  ● findAll › works: no filter
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      11 | } = require("./_testCommon");
+      12 |
+    > 13 | beforeAll(commonBeforeAll);
+         | ^
+      14 | beforeEach(commonBeforeEach);
+      15 | afterEach(commonAfterEach);
+      16 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/company.test.js:13:1)
+
+  ● findAll › works: no filter
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      13 | beforeAll(commonBeforeAll);
+      14 | beforeEach(commonBeforeEach);
+    > 15 | afterEach(commonAfterEach);
+         | ^
+      16 | afterAll(commonAfterAll);
+      17 |
+      18 | /************************************** create */
+
+      at Object.afterEach (models/company.test.js:15:1)
+
+  ● get › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      11 | } = require("./_testCommon");
+      12 |
+    > 13 | beforeAll(commonBeforeAll);
+         | ^
+      14 | beforeEach(commonBeforeEach);
+      15 | afterEach(commonAfterEach);
+      16 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/company.test.js:13:1)
+
+  ● get › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      13 | beforeAll(commonBeforeAll);
+      14 | beforeEach(commonBeforeEach);
+    > 15 | afterEach(commonAfterEach);
+         | ^
+      16 | afterAll(commonAfterAll);
+      17 |
+      18 | /************************************** create */
+
+      at Object.afterEach (models/company.test.js:15:1)
+
+  ● get › not found if no such company
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      11 | } = require("./_testCommon");
+      12 |
+    > 13 | beforeAll(commonBeforeAll);
+         | ^
+      14 | beforeEach(commonBeforeEach);
+      15 | afterEach(commonAfterEach);
+      16 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/company.test.js:13:1)
+
+  ● get › not found if no such company
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      13 | beforeAll(commonBeforeAll);
+      14 | beforeEach(commonBeforeEach);
+    > 15 | afterEach(commonAfterEach);
+         | ^
+      16 | afterAll(commonAfterAll);
+      17 |
+      18 | /************************************** create */
+
+      at Object.afterEach (models/company.test.js:15:1)
+
+  ● update › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      11 | } = require("./_testCommon");
+      12 |
+    > 13 | beforeAll(commonBeforeAll);
+         | ^
+      14 | beforeEach(commonBeforeEach);
+      15 | afterEach(commonAfterEach);
+      16 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/company.test.js:13:1)
+
+  ● update › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      13 | beforeAll(commonBeforeAll);
+      14 | beforeEach(commonBeforeEach);
+    > 15 | afterEach(commonAfterEach);
+         | ^
+      16 | afterAll(commonAfterAll);
+      17 |
+      18 | /************************************** create */
+
+      at Object.afterEach (models/company.test.js:15:1)
+
+  ● update › works: null fields
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      11 | } = require("./_testCommon");
+      12 |
+    > 13 | beforeAll(commonBeforeAll);
+         | ^
+      14 | beforeEach(commonBeforeEach);
+      15 | afterEach(commonAfterEach);
+      16 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/company.test.js:13:1)
+
+  ● update › works: null fields
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      13 | beforeAll(commonBeforeAll);
+      14 | beforeEach(commonBeforeEach);
+    > 15 | afterEach(commonAfterEach);
+         | ^
+      16 | afterAll(commonAfterAll);
+      17 |
+      18 | /************************************** create */
+
+      at Object.afterEach (models/company.test.js:15:1)
+
+  ● update › not found if no such company
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      11 | } = require("./_testCommon");
+      12 |
+    > 13 | beforeAll(commonBeforeAll);
+         | ^
+      14 | beforeEach(commonBeforeEach);
+      15 | afterEach(commonAfterEach);
+      16 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/company.test.js:13:1)
+
+  ● update › not found if no such company
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      13 | beforeAll(commonBeforeAll);
+      14 | beforeEach(commonBeforeEach);
+    > 15 | afterEach(commonAfterEach);
+         | ^
+      16 | afterAll(commonAfterAll);
+      17 |
+      18 | /************************************** create */
+
+      at Object.afterEach (models/company.test.js:15:1)
+
+  ● update › bad request with no data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      11 | } = require("./_testCommon");
+      12 |
+    > 13 | beforeAll(commonBeforeAll);
+         | ^
+      14 | beforeEach(commonBeforeEach);
+      15 | afterEach(commonAfterEach);
+      16 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/company.test.js:13:1)
+
+  ● update › bad request with no data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      13 | beforeAll(commonBeforeAll);
+      14 | beforeEach(commonBeforeEach);
+    > 15 | afterEach(commonAfterEach);
+         | ^
+      16 | afterAll(commonAfterAll);
+      17 |
+      18 | /************************************** create */
+
+      at Object.afterEach (models/company.test.js:15:1)
+
+  ● remove › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      11 | } = require("./_testCommon");
+      12 |
+    > 13 | beforeAll(commonBeforeAll);
+         | ^
+      14 | beforeEach(commonBeforeEach);
+      15 | afterEach(commonAfterEach);
+      16 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/company.test.js:13:1)
+
+  ● remove › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      13 | beforeAll(commonBeforeAll);
+      14 | beforeEach(commonBeforeEach);
+    > 15 | afterEach(commonAfterEach);
+         | ^
+      16 | afterAll(commonAfterAll);
+      17 |
+      18 | /************************************** create */
+
+      at Object.afterEach (models/company.test.js:15:1)
+
+  ● remove › not found if no such company
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      11 | } = require("./_testCommon");
+      12 |
+    > 13 | beforeAll(commonBeforeAll);
+         | ^
+      14 | beforeEach(commonBeforeEach);
+      15 | afterEach(commonAfterEach);
+      16 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (models/company.test.js:13:1)
+
+  ● remove › not found if no such company
+
+    Connection terminated unexpectedly
+
+      at Connection.<anonymous> (node_modules/pg/lib/client.js:123:73)
+      at Socket.<anonymous> (node_modules/pg/lib/connection.js:102:12)
+
+
+  ● Test suite failed to run
+
+    TypeError: The "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received null
+
+      at createHMAC (node_modules/pg/lib/sasl.js:133:17)
+      at Hi (node_modules/pg/lib/sasl.js:137:13)
+      at Object.continueSession (node_modules/pg/lib/sasl.js:32:24)
+      at Client._handleAuthSASLContinue (node_modules/pg/lib/client.js:248:10)
+      at node_modules/pg/lib/connection.js:109:12
+      at Parser.parse (node_modules/pg-protocol/src/parser.ts:102:9)
+      at Socket.<anonymous> (node_modules/pg-protocol/src/index.ts:7:48)
+
+  ● Test suite failed to run
+
+    Connection terminated unexpectedly
+
+      at Connection.<anonymous> (node_modules/pg/lib/client.js:123:73)
+      at Socket.<anonymous> (node_modules/pg/lib/connection.js:102:12)
+
+ FAIL  routes/auth.test.js (45.256 s)
+  ● Console
+
+    console.log
+      Jobly Config:
+
+      at Object.log (config.js:24:9)
+
+    console.log
+      SECRET_KEY: secret-dev
+
+      at Object.log (config.js:25:9)
+
+    console.log
+      PORT: 3001
+
+      at Object.log (config.js:26:9)
+
+    console.log
+      BCRYPT_WORK_FACTOR 1
+
+      at Object.log (config.js:27:9)
+
+    console.log
+      Database: jobly_test
+
+      at Object.log (config.js:28:9)
+
+    console.log
+      ---
+
+      at Object.log (config.js:29:9)
+
+  ● POST /auth/token › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      12 | } = require("./_testCommon");
+      13 |
+    > 14 | beforeAll(commonBeforeAll);
+         | ^
+      15 | beforeEach(commonBeforeEach);
+      16 | afterEach(commonAfterEach);
+      17 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/auth.test.js:14:1)
+
+  ● POST /auth/token › works
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | beforeAll(commonBeforeAll);
+      15 | beforeEach(commonBeforeEach);
+    > 16 | afterEach(commonAfterEach);
+         | ^
+      17 | afterAll(commonAfterAll);
+      18 |
+      19 | /************************************** POST /auth/token */
+
+      at Object.afterEach (routes/auth.test.js:16:1)
+
+  ● POST /auth/token › unauth with non-existent user
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      12 | } = require("./_testCommon");
+      13 |
+    > 14 | beforeAll(commonBeforeAll);
+         | ^
+      15 | beforeEach(commonBeforeEach);
+      16 | afterEach(commonAfterEach);
+      17 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/auth.test.js:14:1)
+
+  ● POST /auth/token › unauth with non-existent user
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | beforeAll(commonBeforeAll);
+      15 | beforeEach(commonBeforeEach);
+    > 16 | afterEach(commonAfterEach);
+         | ^
+      17 | afterAll(commonAfterAll);
+      18 |
+      19 | /************************************** POST /auth/token */
+
+      at Object.afterEach (routes/auth.test.js:16:1)
+
+  ● POST /auth/token › unauth with wrong password
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      12 | } = require("./_testCommon");
+      13 |
+    > 14 | beforeAll(commonBeforeAll);
+         | ^
+      15 | beforeEach(commonBeforeEach);
+      16 | afterEach(commonAfterEach);
+      17 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/auth.test.js:14:1)
+
+  ● POST /auth/token › unauth with wrong password
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | beforeAll(commonBeforeAll);
+      15 | beforeEach(commonBeforeEach);
+    > 16 | afterEach(commonAfterEach);
+         | ^
+      17 | afterAll(commonAfterAll);
+      18 |
+      19 | /************************************** POST /auth/token */
+
+      at Object.afterEach (routes/auth.test.js:16:1)
+
+  ● POST /auth/token › bad request with missing data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      12 | } = require("./_testCommon");
+      13 |
+    > 14 | beforeAll(commonBeforeAll);
+         | ^
+      15 | beforeEach(commonBeforeEach);
+      16 | afterEach(commonAfterEach);
+      17 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/auth.test.js:14:1)
+
+  ● POST /auth/token › bad request with missing data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | beforeAll(commonBeforeAll);
+      15 | beforeEach(commonBeforeEach);
+    > 16 | afterEach(commonAfterEach);
+         | ^
+      17 | afterAll(commonAfterAll);
+      18 |
+      19 | /************************************** POST /auth/token */
+
+      at Object.afterEach (routes/auth.test.js:16:1)
+
+  ● POST /auth/token › bad request with invalid data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      12 | } = require("./_testCommon");
+      13 |
+    > 14 | beforeAll(commonBeforeAll);
+         | ^
+      15 | beforeEach(commonBeforeEach);
+      16 | afterEach(commonAfterEach);
+      17 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/auth.test.js:14:1)
+
+  ● POST /auth/token › bad request with invalid data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | beforeAll(commonBeforeAll);
+      15 | beforeEach(commonBeforeEach);
+    > 16 | afterEach(commonAfterEach);
+         | ^
+      17 | afterAll(commonAfterAll);
+      18 |
+      19 | /************************************** POST /auth/token */
+
+      at Object.afterEach (routes/auth.test.js:16:1)
+
+  ● POST /auth/register › works for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      12 | } = require("./_testCommon");
+      13 |
+    > 14 | beforeAll(commonBeforeAll);
+         | ^
+      15 | beforeEach(commonBeforeEach);
+      16 | afterEach(commonAfterEach);
+      17 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/auth.test.js:14:1)
+
+  ● POST /auth/register › works for anon
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | beforeAll(commonBeforeAll);
+      15 | beforeEach(commonBeforeEach);
+    > 16 | afterEach(commonAfterEach);
+         | ^
+      17 | afterAll(commonAfterAll);
+      18 |
+      19 | /************************************** POST /auth/token */
+
+      at Object.afterEach (routes/auth.test.js:16:1)
+
+  ● POST /auth/register › bad request with missing fields
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      12 | } = require("./_testCommon");
+      13 |
+    > 14 | beforeAll(commonBeforeAll);
+         | ^
+      15 | beforeEach(commonBeforeEach);
+      16 | afterEach(commonAfterEach);
+      17 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/auth.test.js:14:1)
+
+  ● POST /auth/register › bad request with missing fields
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | beforeAll(commonBeforeAll);
+      15 | beforeEach(commonBeforeEach);
+    > 16 | afterEach(commonAfterEach);
+         | ^
+      17 | afterAll(commonAfterAll);
+      18 |
+      19 | /************************************** POST /auth/token */
+
+      at Object.afterEach (routes/auth.test.js:16:1)
+
+  ● POST /auth/register › bad request with invalid data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      12 | } = require("./_testCommon");
+      13 |
+    > 14 | beforeAll(commonBeforeAll);
+         | ^
+      15 | beforeEach(commonBeforeEach);
+      16 | afterEach(commonAfterEach);
+      17 | afterAll(commonAfterAll);
+
+      at Object.beforeAll (routes/auth.test.js:14:1)
+
+  ● POST /auth/register › bad request with invalid data
+
+    thrown: "Exceeded timeout of 5000 ms for a hook.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      14 | beforeAll(commonBeforeAll);
+      15 | beforeEach(commonBeforeEach);
+    > 16 | afterEach(commonAfterEach);
+         | ^
+      17 | afterAll(commonAfterAll);
+      18 |
+      19 | /************************************** POST /auth/token */
+
+      at Object.afterEach (routes/auth.test.js:16:1)
+
+
+  ● Test suite failed to run
+
+    TypeError: The "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received null
+
+      at createHMAC (node_modules/pg/lib/sasl.js:133:17)
+      at Hi (node_modules/pg/lib/sasl.js:137:13)
+      at Object.continueSession (node_modules/pg/lib/sasl.js:32:24)
+      at Client._handleAuthSASLContinue (node_modules/pg/lib/client.js:248:10)
+      at node_modules/pg/lib/connection.js:109:12
+      at Parser.parse (node_modules/pg-protocol/src/parser.ts:102:9)
+      at Socket.<anonymous> (node_modules/pg-protocol/src/index.ts:7:48)
+
+  ● Test suite failed to run
+
+    TypeError: The "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received null
+
+      at createHMAC (node_modules/pg/lib/sasl.js:133:17)
+      at Hi (node_modules/pg/lib/sasl.js:137:13)
+      at Object.continueSession (node_modules/pg/lib/sasl.js:32:24)
+      at Client._handleAuthSASLContinue (node_modules/pg/lib/client.js:248:10)
+      at node_modules/pg/lib/connection.js:109:12
+      at Parser.parse (node_modules/pg-protocol/src/parser.ts:102:9)
+      at Socket.<anonymous> (node_modules/pg-protocol/src/index.ts:7:48)
+
+ PASS  middleware/auth.test.js
+  ● Console
+
+    console.log
+      Jobly Config:
+
+      at Object.log (config.js:24:9)
+
+    console.log
+      SECRET_KEY: secret-dev
+
+      at Object.log (config.js:25:9)
+
+    console.log
+      PORT: 3001
+
+      at Object.log (config.js:26:9)
+
+    console.log
+      BCRYPT_WORK_FACTOR 1
+
+      at Object.log (config.js:27:9)
+
+    console.log
+      Database: jobly_test
+
+      at Object.log (config.js:28:9)
+
+    console.log
+      ---
+
+      at Object.log (config.js:29:9)
+
+ PASS  helpers/tokens.test.js
+  ● Console
+
+    console.log
+      Jobly Config:
+
+      at Object.log (config.js:24:9)
+
+    console.log
+      SECRET_KEY: secret-dev
+
+      at Object.log (config.js:25:9)
+
+    console.log
+      PORT: 3001
+
+      at Object.log (config.js:26:9)
+
+    console.log
+      BCRYPT_WORK_FACTOR 1
+
+      at Object.log (config.js:27:9)
+
+    console.log
+      Database: jobly_test
+
+      at Object.log (config.js:28:9)
+
+    console.log
+      ---
+
+      at Object.log (config.js:29:9)
+
+    console.assert
+      AssertionError [ERR_ASSERTION]: createToken passed user without isAdmin property
+
+      at assert (helpers/tokens.js:7:11)
+
+    console.assert
+      AssertionError [ERR_ASSERTION]: createToken passed user without isAdmin property
+
+      at assert (helpers/tokens.js:7:11)
+
+ PASS  ./config.test.js
+  ● Console
+
+    console.log
+      Jobly Config:
+
+      at Object.log (config.js:24:9)
+
+    console.log
+      SECRET_KEY: abc
+
+      at Object.log (config.js:25:9)
+
+    console.log
+      PORT: 5000
+
+      at Object.log (config.js:26:9)
+
+    console.log
+      BCRYPT_WORK_FACTOR 12
+
+      at Object.log (config.js:27:9)
+
+    console.log
+      Database: other
+
+      at Object.log (config.js:28:9)
+
+    console.log
+      ---
+
+      at Object.log (config.js:29:9)
+
+ FAIL  ./app.test.js
+  ● Console
+
+    console.log
+      Jobly Config:
+
+      at Object.log (config.js:24:9)
+
+    console.log
+      SECRET_KEY: secret-dev
+
+      at Object.log (config.js:25:9)
+
+    console.log
+      PORT: 3001
+
+      at Object.log (config.js:26:9)
+
+    console.log
+      BCRYPT_WORK_FACTOR 1
+
+      at Object.log (config.js:27:9)
+
+    console.log
+      Database: jobly_test
+
+      at Object.log (config.js:28:9)
+
+    console.log
+      ---
+
+      at Object.log (config.js:29:9)
+
+    console.error
+      Error: Not Found
+          at /home/rustyshackleford/USF/39jobly/app.js:31:15
+          at Layer.handle [as handle_request] (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/layer.js:95:5)
+          at trim_prefix (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:328:13)
+          at /home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:286:9
+          at Function.process_params (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:346:12)
+          at next (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:280:10)
+          at next (/home/rustyshackleford/USF/39jobly/middleware/auth.js:25:12)
+          at Layer.handle [as handle_request] (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/layer.js:95:5)
+          at trim_prefix (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:328:13)
+          at /home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:286:9
+          at Function.process_params (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:346:12)
+          at next (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:280:10)
+          at logger (/home/rustyshackleford/USF/39jobly/node_modules/morgan/index.js:144:5)
+          at Layer.handle [as handle_request] (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/layer.js:95:5)
+          at trim_prefix (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:328:13)
+          at /home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:286:9
+          at Function.process_params (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:346:12)
+          at next (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:280:10)
+          at jsonParser (/home/rustyshackleford/USF/39jobly/node_modules/body-parser/lib/types/json.js:110:7)
+          at Layer.handle [as handle_request] (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/layer.js:95:5)
+          at trim_prefix (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:328:13)
+          at /home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:286:9
+          at Function.process_params (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:346:12)
+          at next (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:280:10)
+          at cors (/home/rustyshackleford/USF/39jobly/node_modules/cors/lib/index.js:188:7)
+          at /home/rustyshackleford/USF/39jobly/node_modules/cors/lib/index.js:224:17
+          at originCallback (/home/rustyshackleford/USF/39jobly/node_modules/cors/lib/index.js:214:15)
+          at /home/rustyshackleford/USF/39jobly/node_modules/cors/lib/index.js:219:13
+          at optionsCallback (/home/rustyshackleford/USF/39jobly/node_modules/cors/lib/index.js:199:9)
+          at corsMiddleware (/home/rustyshackleford/USF/39jobly/node_modules/cors/lib/index.js:204:7)
+          at Layer.handle [as handle_request] (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/layer.js:95:5)
+          at trim_prefix (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:328:13)
+          at /home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:286:9
+          at Function.process_params (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:346:12)
+          at next (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:280:10)
+          at expressInit (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/middleware/init.js:40:5)
+          at Layer.handle [as handle_request] (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/layer.js:95:5)
+          at trim_prefix (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:328:13)
+          at /home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:286:9
+          at Function.process_params (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:346:12)
+          at next (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:280:10)
+          at query (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/middleware/query.js:45:5)
+          at Layer.handle [as handle_request] (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/layer.js:95:5)
+          at trim_prefix (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:328:13)
+          at /home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:286:9
+          at Function.process_params (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:346:12)
+          at next (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:280:10)
+          at Function.handle (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/router/index.js:175:3)
+          at Function.handle (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/application.js:181:10)
+          at Server.app (/home/rustyshackleford/USF/39jobly/node_modules/express/lib/express.js:39:9)
+          at Server.emit (node:events:513:28)
+          at parserOnIncoming (node:_http_server:1091:12)
+          at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+
+      34 | /** Generic error handler; anything unhandled goes here. */
+      35 | app.use(function (err, req, res, next) {
+    > 36 |   if (process.env.NODE_ENV !== "test") console.error(err.stack);
+         |                                                ^
+      37 |   const status = err.status || 500;
+      38 |   const message = err.message;
+      39 |
+
+      at error (app.js:36:48)
+      at Layer.handle_error (node_modules/express/lib/router/layer.js:71:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:326:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at next (app.js:31:10)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:328:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at next (middleware/auth.js:25:12)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:328:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at logger (node_modules/morgan/index.js:144:5)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:328:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at jsonParser (node_modules/body-parser/lib/types/json.js:110:7)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:328:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at cors (node_modules/cors/lib/index.js:188:7)
+      at node_modules/cors/lib/index.js:224:17
+      at originCallback (node_modules/cors/lib/index.js:214:15)
+      at node_modules/cors/lib/index.js:219:13
+      at optionsCallback (node_modules/cors/lib/index.js:199:9)
+      at corsMiddleware (node_modules/cors/lib/index.js:204:7)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:328:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at expressInit (node_modules/express/lib/middleware/init.js:40:5)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:328:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at query (node_modules/express/lib/middleware/query.js:45:5)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:328:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at Function.handle (node_modules/express/lib/router/index.js:175:3)
+      at Function.handle (node_modules/express/lib/application.js:181:10)
+      at Server.app (node_modules/express/lib/express.js:39:9)
+
+  ● not found for site 404 (test stack print)
+
+    TypeError: The "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received null
+
+      at createHMAC (node_modules/pg/lib/sasl.js:133:17)
+      at Hi (node_modules/pg/lib/sasl.js:137:13)
+      at Object.continueSession (node_modules/pg/lib/sasl.js:32:24)
+      at Client._handleAuthSASLContinue (node_modules/pg/lib/client.js:248:10)
+      at node_modules/pg/lib/connection.js:109:12
+      at Parser.parse (node_modules/pg-protocol/src/parser.ts:102:9)
+      at Socket.<anonymous> (node_modules/pg-protocol/src/index.ts:7:48)
+
+Test Suites: 6 failed, 3 passed, 9 total
+Tests:       70 failed, 10 passed, 80 total
+Snapshots:   0 total
+Time:        387.233 s
+Ran all test suites.
+node:internal/crypto/keys:596
+    throw new ERR_INVALID_ARG_TYPE(
+    ^
+
+TypeError: The "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received null
+    at new NodeError (node:internal/errors:399:5)
+    at prepareSecretKey (node:internal/crypto/keys:596:11)
+    at new Hmac (node:internal/crypto/hash:136:9)
+    at Object.createHmac (node:crypto:165:10)
+    at createHMAC (/home/rustyshackleford/USF/39jobly/node_modules/pg/lib/sasl.js:133:17)
+    at Hi (/home/rustyshackleford/USF/39jobly/node_modules/pg/lib/sasl.js:137:13)
+    at Object.continueSession (/home/rustyshackleford/USF/39jobly/node_modules/pg/lib/sasl.js:32:24)
+    at Client._handleAuthSASLContinue (/home/rustyshackleford/USF/39jobly/node_modules/pg/lib/client.js:248:10)
+    at Connection.emit (node:events:513:28)
+    at /home/rustyshackleford/USF/39jobly/node_modules/pg/lib/connection.js:109:12
+    at Parser.parse (/home/rustyshackleford/USF/39jobly/node_modules/pg-protocol/src/parser.ts:102:9)
+    at Socket.<anonymous> (/home/rustyshackleford/USF/39jobly/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
