@@ -15,3 +15,7 @@ Cd back to the src folder and run the following command : npm start
 You should be greeted with a Login Screen. The search bar will now display related songs/artists below and if you have a premium account it WILL play the song as well.
 
 Future Plans: Lyrics, Musics Videos?,
+
+Tech Stack: React, React DOM, react-bootstrap Tabnine, nodemon, spotify web api node helper, express
+
+I paid $10 to make sure it works on premium :)
