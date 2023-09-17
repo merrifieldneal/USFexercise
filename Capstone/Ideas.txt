@@ -1,0 +1,11 @@
+Spotify App
+
+
+1. ReactJS
+2. Back End Focus?
+3. Website
+4. Be able to bring up songs/artists of things related to the search.
+5. Demographic is widely based probably torwards teenagers up, but more towards older people trying to learn song names.
+6. Spotify API?
+7. I just it to be able to to populate relative song/artist information when prompted.
+
